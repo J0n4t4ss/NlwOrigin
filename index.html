@@ -5,15 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="assets/fonts/style.css">
+    
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <header id="header">
-        <nav class="container">
+        <nav class="container ">
             <a class="logo" href="#">beauty<span>saloun.</span></a>
-            <div class="menu">...</div>
+            <div class="menu">
+                <ul class="grid">
+                    <li><a class="tittle" href="#home">Início</a></li>
+                    <li><a class="tittle" href="#about">Sobre</a></li>
+                    <li><a class="tittle" href="#services">Serviços</a></li>
+                    <li><a class="tittle" href="#testimonials">Depoimentos</a></li>
+                    <li><a class="tittle" href="#contact">Contato</a></li>
+                </ul>
+            </div><!--menu-->
+            <div class=" toggle icon-menu"></div>
+            <div class=" toggle icon-close"></div>
         </nav>
     </header>
     
@@ -24,7 +38,7 @@
                     <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGFpcmRyZXNzZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Mulher sorrindo penteando outra mulher">
                 </div>
                 <div class="text">
-                    <h1>Saúde natural para os seus cabelos</h1>
+                    <h2 class="tittle">Saúde natural para os seus cabelos</h2>
                     <p>Um salão exclusivo em São Paulo, especializado em tratamentos naturais.</p>
                     <a class="button" href="#">Agendar um horário</a>
                 </div>
@@ -33,13 +47,19 @@
 
         <div class="divider-1"></div>
 
-        <section class="section">
-            <div class="container">
-                outra section
+        <section class="section" id="about">
+            <div class="container grid">
+
+            </div><!--container grid-->
+
+        </section>
+
+        <section class="section" id="services">
+            <div class="container grid">
+
             </div>
         </section>
     </main>
-    
-    
+    <script src="main.js"></script>
 </body>
 </html>
