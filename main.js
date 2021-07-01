@@ -40,7 +40,7 @@ const swiper = new Swiper('.swiper-container', {
        el:'.swiper-pagination'
    },
    mousewheel: true,
-   Keyboar: true,
+   Keyboard: true,
    breakpoints:{
        767:{
            slidesPerView:2,
@@ -72,7 +72,7 @@ scrollReveal.reveal(`
 
 //active link
 
-const section = document.querySelectorAll('section[id]')
+const section = document.querySelectorAll('main section[id]')
 function activateMenuAtCurrentSection(){
     const checkpoint = window.pageYOffset + (window.innerHeight / 8) * 4
 
